@@ -1,0 +1,42 @@
+body::before {
+    display: block;
+    content: '';
+}
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+  
+  .container{
+    padding-top: 1px;
+}
+  
+  .bruno{
+    transform: rotate(25deg) translateY(10rem);
+}
+  
+  .container-1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+   #features i{
+     color: #ec4343;
+   }
+
+@media only screen and (max-width: 1247px){
+    .bruno{
+      transform: initial;
+      width: 20rem;
+    }
+}
+
+  .social li{
+	display: inline-block;
+}
+
+.social i {
+	color: #f777f7;
+}
